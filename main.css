@@ -8,6 +8,9 @@ body{
 .topnav {
     background-color: #1d222b;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -31,4 +34,7 @@ body{
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+.main{
+    margin-top: 59px;
 }
