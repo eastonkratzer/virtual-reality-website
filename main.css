@@ -11,6 +11,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    margin: 0 auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -35,6 +36,25 @@ body{
     background-color: #A4BCC4;
     color: white;
 }
+.navmenu{
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+}
 .main{
     margin-top: 59px;
+}
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+    max-width: 960px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+    background-color: #A4BCC4;
+    padding: 30px;
+    text-align: center;
 }
